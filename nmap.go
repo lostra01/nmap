@@ -19,6 +19,7 @@ import (
 // ScanRunner represents something that can run a scan.
 type ScanRunner interface {
 	Run() (result *Run, warnings []string, err error)
+	RunWithProgress(liveProgress chan<- float32) (result *Run, warnings []string, err error)
 }
 
 // Streamer constantly streams the stdout.
