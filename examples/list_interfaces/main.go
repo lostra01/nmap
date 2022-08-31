@@ -3,8 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Ullaakut/nmap/v2"
 	"log"
+
+	"github.com/lostra01/nmap/v2"
 )
 
 func main() {

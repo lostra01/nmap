@@ -1,4 +1,4 @@
-module github.com/Ullaakut/nmap/v2
+module github.com/lostra01/nmap/v2
 
 go 1.15
 
